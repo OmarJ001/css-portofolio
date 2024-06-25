@@ -1,0 +1,115 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  display: block;
+  margin-top: 0px;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  clear: both;
+}
+
+span {
+  color: navy;
+}
+
+.logo {
+  height: 15%;
+  width: 15%;
+}
+
+.p1 {
+  text-align: justify;
+}
+.p2 {
+  text-align: justify;
+}
+
+
+/* h1 interactive */
+@media (width <= 670px) {
+  h1 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+}
+
+/* logo interactive */
+@media (width <= 670px) {
+  .logo {
+    height: 15%;
+    width: 15%;
+  }
+}
+
+.image-one {
+  float: left;
+  height: 200px;
+  width: 300px;
+  margin-right: 50px;
+}
+
+.image-two {
+  float: left;
+  height: 200px;
+  width: 300px;
+  margin-right: 50px;
+}
+
+.left-div {
+  width: 45%;
+  float: left;
+}
+
+.right-div {
+  width: 45%;
+  float: right;
+}
+
+@media (width <= 670px) {
+  .left-div {
+    width: 100%;
+  }
+  .image-one {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .right-div {
+    width: 100%;
+  }
+  .image-two {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  .p1 {
+    text-align: justify;
+  }
+  .p2 {
+    text-align: justify;
+  }
+
+}
+
+
+
+
